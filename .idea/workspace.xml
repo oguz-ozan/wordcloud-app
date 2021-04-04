@@ -20,9 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c912a3-88a3-414c-bb68-3758d173a746" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/NavbarComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Conferences.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/pages/EditConference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Results.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/answers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/conferences.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Conference.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Conference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Question.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/AddConference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/Answers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +71,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/pages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +85,24 @@
       <option name="presentableId" value="Default" />
       <updated>1602146683682</updated>
       <workItem from="1602146684730" duration="5275000" />
-      <workItem from="1602156687623" duration="1068000" />
+      <workItem from="1602156687623" duration="4472000" />
+      <workItem from="1602237119859" duration="8657000" />
+      <workItem from="1602578394289" duration="8880000" />
+      <workItem from="1602755455862" duration="6370000" />
+      <workItem from="1603099215458" duration="14280000" />
+      <workItem from="1603182737075" duration="13491000" />
+      <workItem from="1603272722066" duration="8210000" />
+      <workItem from="1603354127025" duration="17915000" />
+      <workItem from="1603437951683" duration="16798000" />
+      <workItem from="1603629780344" duration="11510000" />
+      <workItem from="1603703460131" duration="3937000" />
+      <workItem from="1603712373746" duration="882000" />
+      <workItem from="1603902797056" duration="251000" />
+      <workItem from="1603975967804" duration="1345000" />
+      <workItem from="1604051028687" duration="1203000" />
+      <workItem from="1607412210376" duration="1439000" />
+      <workItem from="1614620292373" duration="8000" />
+      <workItem from="1617564245340" duration="2000" />
     </task>
     <servers />
   </component>
@@ -78,5 +119,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603373158433">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603373158433" />
+    <state x="217" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603704456433">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="217" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603704456433" />
+    <state x="161" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603372881660">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="161" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603372881660" />
+    <state x="118" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1603361590421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="118" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603361590421" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 const express = require ('express');
 const connectDB = require('./config/db');
+var cors = require('cors')
+
 const app = express();
 
 // Connect Database
@@ -7,6 +9,7 @@ connectDB();
 
 // Init Middleware
 app.use(express.json());
+app.use(cors());
 
 
 app.get('/', (req,res) => res.send('API running'));
@@ -14,6 +17,8 @@ app.get('/', (req,res) => res.send('API running'));
 // Define routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/conference', require('./routes/api/conferences'));
+app.use('/api/answers', require('./routes/api/answers'));
 
 const PORT = process.env.PORT || 5000;
 
